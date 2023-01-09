@@ -17,7 +17,7 @@ If you prefer, there's an experimental, standalone, purely client-side web versi
 Either [prebuilt binary for your system](https://github.com/fiatjaf/jiq/releases) (and make sure to `chmod +x` it first) or install/compile with Go:
 
 ```
-go get github.com/fiatjaf/jiq/cmd/jiq
+go install github.com/fiatjaf/jiq/cmd/jiq@latest
 ```
 
 If you don't have `jq` installed, follow instructions at https://stedolan.github.io/jq/download/ and make sure to put it in your `PATH`.
